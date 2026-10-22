@@ -1,0 +1,6 @@
+# Lista de alvos - exemplo
+# Linhas com # sao ignoradas
+http://127.0.0.1:8091
+http://127.0.0.1:9999
+https://example.com
+127.0.0.1:8091

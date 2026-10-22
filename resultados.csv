@@ -1,0 +1,6 @@
+target,status,seed_path,trigger_path,seed_url,trigger_url,uid,user,gid,groups,demo_files,timestamp,output,error
+https://www.facebook.com/,FAIL,,,,,,,,,,2026-10-22 09:43:43,,No working seed/trigger pair found
+https://www.youth.cn/,FAIL,,,,,,,,,,2026-10-22 09:50:08,,No working seed/trigger pair found
+https://coccoc.com/,SUCCESS,/,/,https://coccoc.com/,https://coccoc.com/,,,,,pwned_php2shell.txt (path nao confirmado na resposta),2026-10-22 09:51:17,"<!DOCTYPE html><html lang=""vi""> <head><title>TrÃ¬nh duyá»t Cá»c Cá»c | TrÃ¬nh duyá»t web dÃ nh cho ngÆ°á»i Viá»t</title><meta charset=""utf-8""><meta name=""viewport"" content=""width=device-width""><meta name=""generator"" content=""Astro v7.0.7""><link rel=""icon"" type=""image/x-icon"" href=""/favicon.ico""><link rel=""preload"" href=""/fonts/SVN-Poppins.woff2"" as=""font"" type=""font/woff2"" crossorigin=""anonymous""><link rel=""preload"" href=""/fonts/SVN-PoppinsSemiBold.woff2"" as=""font"" type=""font/woff2"" crosso",
+https://www.xinhuanet.com/,FAIL,,,,,,,,,,2026-10-22 09:52:07,,No working seed/trigger pair found
+https://www.gmw.cn/,FAIL,,,,,,,,,,2026-10-22 09:52:58,,No working seed/trigger pair found

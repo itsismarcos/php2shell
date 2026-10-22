@@ -1,0 +1,30 @@
+cenario,target,status,seed_path,trigger_path,seed_url,trigger_url,uid,user,gid,groups,demo_files,timestamp,output,error
+batch_lista_txt,http://127.0.0.1:8091,SUCCESS,/seed/,/app/,http://127.0.0.1:8091/seed/,http://127.0.0.1:8091/app/,33,www-data,33,33(www-data),/tmp/pwned_php2shell.txt; /var/tmp/pwned_php2shell.txt,2026-10-22 12:37:20,"== pwd: /var/www/php2shell/app
+ls: cannot access '/var/www/php2shell/app/pwned_php2shell.txt': No such file or directory
+-rw-r--r-- 1 www-data www-data 88 Oct 22 12:37 /tmp/pwned_php2shell.txt
+-rw-r--r-- 1 www-data www-data 88 Oct 22 12:37 /var/tmp/pwned_php2shell.txt
+== content ==
+PHP2SHELL_RCE_109618
+RCE via CVE-2026-109618 (PHP2Shell)
+host: e2b.local
+user: www-data
+PHP2SHELL_RCE_109618
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+[app] session started
+",
+batch_lista_txt,http://127.0.0.1:9999,FAIL,,,,,,,,,,2026-10-22 12:37:20,,No working seed/trigger pair found
+batch_lista_txt,https://example.com,FAIL,,,,,,,,,,2026-10-22 12:37:20,,No working seed/trigger pair found
+par_vulneravel_manual,http://127.0.0.1:8091,SUCCESS,/seed/,/app/,http://127.0.0.1:8091/seed/,http://127.0.0.1:8091/app/,33,www-data,33,33(www-data),/tmp/pwned_php2shell.txt; /var/tmp/pwned_php2shell.txt,2026-10-22 12:37:15,"== pwd: /var/www/php2shell/app
+ls: cannot access '/var/www/php2shell/app/pwned_php2shell.txt': No such file or directory
+-rw-r--r-- 1 www-data www-data 88 Oct 22 12:37 /tmp/pwned_php2shell.txt
+-rw-r--r-- 1 www-data www-data 88 Oct 22 12:37 /var/tmp/pwned_php2shell.txt
+== content ==
+PHP2SHELL_RCE_109618
+RCE via CVE-2026-109618 (PHP2Shell)
+host: e2b.local
+user: www-data
+PHP2SHELL_RCE_109618
+uid=33(www-data) gid=33(www-data) groups=33(www-data)
+[app] session started
+",
+controle_app_corrigido,http://127.0.0.1:8091/patched/,FAIL,,,,,,,,,,2026-10-22 12:37:15,,No working seed/trigger pair found
