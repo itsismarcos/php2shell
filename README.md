@@ -266,8 +266,7 @@ Solução: O CSV é gravado incrementalmente — os resultados já processados e
  Licença
 MIT License — Use por sua conta e risco.
 ---
- Créditos
-Autor: VandaTheGod
+
 CVEs: CVE-2026-109618, CVE-2026-109619
 Descoberta: Confusão de `session.serialize_handler` via `session.upload_progress`
 ---
